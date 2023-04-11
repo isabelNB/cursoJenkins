@@ -9,7 +9,10 @@ pipeline
         {
             steps
             {
-               echo "Hola mundo"
+               echo "version de Java"
+                bat "java -version"
+               echo "version de Git"
+                bat "git --version"
             }
         }
        
