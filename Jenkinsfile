@@ -9,11 +9,7 @@ pipeline
         {
             steps
             {
-                script
-                {
-                   sh 'java -version'
-                   sh 'git --version'
-                }
+               echo "Hola mundo"
             }
         }
        
